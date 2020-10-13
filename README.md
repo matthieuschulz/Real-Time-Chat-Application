@@ -4,6 +4,7 @@
 
  Uses React on the front-end, with NodeJS, Express, Socket.io Web Socket Library and other libraries on the back-end.
 
+
  # Setup
  Clone this repository
  Run npm install to install all the dependencies
