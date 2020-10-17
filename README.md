@@ -3,6 +3,8 @@
 
 
  Uses React on the front-end, with NodeJS, Express, Socket.io Web Socket Library and other libraries on the back-end.
+ Socket.IO enables real-time, bidirectional and event-based communication.
+
 
 
  # Setup
