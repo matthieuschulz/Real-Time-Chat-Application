@@ -10,8 +10,10 @@ const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
 
-io.on('connection', => {
-    //setting up socket.io real time chat
+io.on('connection', (socket)=> {    //setting up socket.io real time chat
+    console.log('We have a new connection!');
+    socket.on('disconnect')
+ 
 })
 
 
