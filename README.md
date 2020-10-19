@@ -8,6 +8,8 @@
 
 
  # Setup
- Clone this repository
- Run npm install to install all the dependencies
- Set the client endpoint to localhost:5000 in client/src/components/Chat/Chat.js
+Clone this repository
+Run npm install to install all the dependencies
+Set the client endpoint to localhost:5000 in client/src/components/Chat/Chat.js
+Run npm i && npm startfor both client and server side to start the development server
+Then, you will be able to view the application at localhost:3000.
