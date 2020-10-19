@@ -23,10 +23,11 @@ html, body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
   }
+  
 
   @keyframes bgcolor {
     0% {
-        background-color: #45a3e5
+        background-color: #e545ba
     }
 
     30% {
@@ -38,7 +39,7 @@ html, body {
     }
 
     90% {
-        background-color: #f35
+        background-color: #bae545
     }
 
     100% {
