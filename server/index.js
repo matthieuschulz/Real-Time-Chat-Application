@@ -15,6 +15,14 @@ io.on('connection', (socket)=> {    //setting up socket.io real time chat
 
     socket.on('join', ({name, room}) =>{
         console.log(name, room);
+
+        const error = true;
+
+        if(error){
+            callback({error: 'error'});
+        }
+
+        callback(); // error handling
     })
     socket.on('disconnect', () => {
         console.log('User has left!');
