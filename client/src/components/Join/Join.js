@@ -1,4 +1,4 @@
-import React, {useState }from 'react';
+import React, {useState}from 'react';
 import {Link} from 'react-router-dom';
 
 import './Join.css';
@@ -19,7 +19,7 @@ const Join = () => {
                     <button className="button mt-20" type="submit">Sign In</button>
                 </Link>
 
-                
+
             </div>
         </div>
     )
