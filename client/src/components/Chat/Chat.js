@@ -16,11 +16,12 @@ const Chat = ({location}) => {
 
             socket = io(ENDPOINT);
 
+            
             setName(name);
             setRoom(room);
 
 
-            
+
             socket.emit('join', {name, room});
     }, [ENDPOINT, location.search])
     return ( 
