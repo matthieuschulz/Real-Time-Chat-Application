@@ -19,11 +19,12 @@ const Chat = ({location}) => {
             setName(name);
             setRoom(room);
 
-            
+
             socket.emit('join', {name, room});
     }, [ENDPOINT, location.search])
     return ( 
         <h1>Chat</h1>
     )
+    
 }
 export default Chat;
