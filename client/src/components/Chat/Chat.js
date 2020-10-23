@@ -16,7 +16,7 @@ const Chat = ({location}) => {
 
             socket = io(ENDPOINT);
 
-            
+
             setName(name);
             setRoom(room);
 
@@ -27,6 +27,7 @@ const Chat = ({location}) => {
     return ( 
         <h1>Chat</h1>
     )
+    
 
 }
 export default Chat;
