@@ -14,6 +14,7 @@ const Chat = ({location}) => {
     useEffect(() => {
         const {name,room }  = queryString.parse(location.search);
 
+        
             socket = io(ENDPOINT);
 
 
@@ -27,7 +28,7 @@ const Chat = ({location}) => {
     return ( 
         <h1>Chat</h1>
     )
-    
+
 
 }
 export default Chat;
