@@ -14,7 +14,7 @@ const Chat = ({location}) => {
     useEffect(() => {
         const {name,room }  = queryString.parse(location.search);
 
-        
+
         
             socket = io(ENDPOINT);
 
@@ -23,6 +23,7 @@ const Chat = ({location}) => {
             setRoom(room);
 
 
+            
 
             socket.emit('join', {name, room});
     }, [ENDPOINT, location.search])
