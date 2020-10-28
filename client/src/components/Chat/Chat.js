@@ -27,6 +27,7 @@ const Chat = ({location}) => {
             
 
 
+
             
 
             socket.emit('join', {name, room});
