@@ -24,7 +24,7 @@ const Chat = ({location}) => {
             setRoom(room);
 
 
-            
+
 
 
 
@@ -45,4 +45,5 @@ const Chat = ({location}) => {
 
 
 }
+
 export default Chat;
