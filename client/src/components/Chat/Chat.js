@@ -15,7 +15,7 @@ const Chat = ({location}) => {
         const {name,room }  = queryString.parse(location.search);
 
 
-        
+
         
             socket = io(ENDPOINT);
 
@@ -27,6 +27,7 @@ const Chat = ({location}) => {
 
 
 
+            
 
 
             
