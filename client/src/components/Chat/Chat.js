@@ -24,10 +24,11 @@ const Chat = ({location}) => {
             setRoom(room);
 
 
-
-
-
             
+
+
+
+
 
 
             
