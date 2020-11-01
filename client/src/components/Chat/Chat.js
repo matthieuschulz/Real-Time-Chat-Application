@@ -20,6 +20,7 @@ const Chat = ({location}) => {
             socket = io(ENDPOINT);
 
 
+            
             setName(name);
             setRoom(room);
 
