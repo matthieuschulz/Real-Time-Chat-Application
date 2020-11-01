@@ -21,6 +21,7 @@ io.on('connection', (socket)=> {    //setting up socket.io real time chat
         if(error){
             callback({error: 'error'});
         }
+        
 
         callback(); // error handling
     })
