@@ -26,6 +26,7 @@ io.on('connection', (socket)=> {    //setting up socket.io real time chat
         
 
 
+
         callback(); // error handling
     })
     socket.on('disconnect', () => {
