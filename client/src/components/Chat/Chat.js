@@ -17,6 +17,8 @@ const Chat = ({location}) => {
 
 
         
+
+        
             socket = io(ENDPOINT);
 
 
@@ -27,7 +29,7 @@ const Chat = ({location}) => {
 
 
 
-            
+
 
 
 
