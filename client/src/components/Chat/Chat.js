@@ -4,6 +4,7 @@ import io from 'socket.io-client';
 
 import './Chat.css';
 
+
 let socket;
 
 const Chat = ({location}) => {
